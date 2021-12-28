@@ -18,6 +18,12 @@ hwp파일을  OpenDocumentText (ODT)형식으로 변환 할 수 있습니다.
 
 ## 알려진 이슈[Known Issue]
 * LibreOffice 7.1.x 에서의 변환 품질 대비 LibreOffice 7.2.x 에서의 변환 품질이 저하됨
+* 문단에 배치된(anchor to paragraph) 개체 위치가 PARA_BREAK 입력시 다음 문단을 따라 이동함 (LibreOffice 7.2.x 에서 발생)
+
+## 2021.12.28 (v0.3.5)
+* 글상자 내 테이블 그릴때 셀 높이(height)값 적용하여 표현
+* 페이지 영역 밖의 개체는 무시하도록 수정
+* 페이지 마진 계산시 header/footer 포함하도록 수정
 
 ## 2021.12.09 (v0.3.4)
 * Hwp호환문서 레코드 없을때 기본값으로 동작하도록 변경
