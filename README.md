@@ -6,7 +6,6 @@
 확장을 추가한 후에는 
 
 - 파일 열기창에서 "Hwp2002_Writer (*.hwp)" 파일 유형을 필터링하거나, 
-
 - hwp파일을 끌어오기를 하여
 
 hwp파일을  OpenDocumentText (ODT)형식으로 변환 할 수 있습니다.
@@ -16,9 +15,10 @@ hwp파일을  OpenDocumentText (ODT)형식으로 변환 할 수 있습니다.
 * 확장 바이너리 사용은 무료이며, 편하게 사용하시면 됩니다. 
 * 오류나 불편사항은 이 github의 issue에 등록해주시면 주기적으로 개선하겠습니다.
 
-## 알려진 이슈[Known Issue]
-* LibreOffice 7.1.x 에서의 변환 품질 대비 LibreOffice 7.2.x 에서의 변환 품질이 저하됨
-* 문단에 배치된(anchor to paragraph) 개체 위치가 PARA_BREAK 입력시 다음 문단을 따라 이동함 (LibreOffice 7.2.x 에서 발생)
+
+## 2022.1.5 (v0.3.6)
+* 세로쓰기 반영
+* LibreOffice 7.2 이상에서 문단에 배치된 개체위치가 PARA_BREAK 입력시에 위치 변경되지 않도록 workaound 적용
 
 ## 2021.12.28 (v0.3.5)
 * 글상자 내 테이블 그릴때 셀 높이(height)값 적용하여 표현
